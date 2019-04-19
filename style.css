@@ -24,35 +24,40 @@ header h1 {
 }
 header p {
   font-size: 25px;
+  margin-bottom: 10px;
 }
-
+header p1{
+  font-size: 15px;
+  margin-left: 80px;
+  margin-top: 10px;
+}
 .pads {
   background: lightblue;
   width: 100%;
   display: flex;
 }
 .pads > div {
-  height: 100px;
+  height: 150px;
   width: 100px;
   flex: 1;
 }
 .pad1 {
-  background: #60d394;
+  background: #4834DF;
 }
 .pad2 {
-  background: #d36060;
+  background: #2B2B52;
 }
 .pad3 {
-  background: #c060d3;
+  background: #74B9FF;
 }
 .pad4 {
-  background: #d3d160;
+  background: #25CCF7;
 }
 .pad5 {
-  background: #606bd3;
+  background: #FFF222;
 }
 .pad6 {
-  background: #60c2d3;
+  background: #586776;
 }
 
 .visual > div {
@@ -67,12 +72,12 @@ header p {
 
 @keyframes jump {
   0% {
-    bottom: 100%;
-    right: 0%;
+    bottom: 0%;
+    left: 20%;
   }
   50% {
-    bottom:20%;
-    right: 0%;
+    bottom:50%;
+    left: 50%;
   }
 
   100% {
