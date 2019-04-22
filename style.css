@@ -11,8 +11,7 @@ body {
 .app {
   min-height: 100vh;
   display: flex;
-  flex-direction: column
-  ;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
@@ -26,13 +25,14 @@ header p {
   font-size: 25px;
   margin-bottom: 10px;
 }
-header p1{
+header p1 {
   font-size: 15px;
   margin-left: 80px;
   margin-top: 10px;
 }
+
 .pads {
-  background: lightblue;
+  background: black;
   width: 100%;
   display: flex;
 }
@@ -41,20 +41,25 @@ header p1{
   width: 100px;
   flex: 1;
 }
+.h4 {
+  color: rgb(10, 73, 207);
+  text-align: center;
+  margin-top: 30%;
+}
 .pad1 {
-  background: #4834DF;
+  background: #4834df;
 }
 .pad2 {
-  background: #2B2B52;
+  background: #2b2b52;
 }
 .pad3 {
-  background: #74B9FF;
+  background: #74b9ff;
 }
 .pad4 {
-  background: #25CCF7;
+  background: #25ccf7;
 }
 .pad5 {
-  background: #FFF222;
+  background: #fff222;
 }
 .pad6 {
   background: #586776;
@@ -76,7 +81,7 @@ header p1{
     left: 20%;
   }
   50% {
-    bottom:50%;
+    bottom: 50%;
     left: 50%;
   }
 
